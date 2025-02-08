@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Form</title>
+    <style>
+        header {
+            background-color: rgb(23, 2, 48);
+            text-align: center;
+            padding: 20px;
+            color: rgb(214, 98, 185);
+        }
+
+        body {
+            background-color: #22172c;
+            color: rgb(192, 192, 192);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        div {
+            margin:20px;
+            font-size: 30px;
+        }
+
+        form label {
+            padding: 5px;   
+        }
+        
+        form button {
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.788);
+            background-color:rgb(31, 4, 28);
+            margin: 10px 20px;
+            padding: 10px 20px;
+            align-items: center;
+            border-radius: 15px;
+            
+        }
+
+        button:hover {
+            transform: scale(1.10);
+            background-color: rgb(75, 11, 75); 
+            box-shadow: 0 0 20px rgb(119, 14, 119);
+        }
+
+        section {
+            color:rgb(161, 86, 141);
+            padding-top: 5px;
+            padding-bottom: 20px;
+            margin:20px;
+            width:auto;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #1d0125, #490644);
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+
+        }
+
+        h1 {
+            font-size: 50px;
+            margin:10px;
+        }
+
+    </style>
+</head>
+<header>
+    <h1>Favorite Movie Form</h1>
+</header>
+<body>
+    <form method="get" action="lab2 redirect.html">
+        <section>
+            <h1>Enter Your Favorite Movie!</h1>
+            <div>
+                <label for="favoriteMovie">Favorite Movie:</label>
+                <input type="text" id="favoriteMovie" required>
+            </div>
+            <div>
+                <label for="Name">Enter Your Full Name:</label>
+                <input type="text" id="Name" required>
+            </div>
+            <button type="submit">Submit</button>
+        </section>  
+    </form>
+    
+</body>
+</html>
